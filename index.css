@@ -2135,15 +2135,15 @@ hr {
 
     .end_page_resp {
         position: relative;
-        background-color: #0E2E29;
-        text-align: center;
+        width: 360px;
+        backdrop-filter: blur(15px);
+        border-top: 3px solid #1EEBCD;
+        border-right: 3px solid #1EEBCD;
+        border-left: 3px solid #1EEBCD;
+        box-shadow: 0px 2px 20px #1EEBCD;
         border-radius: 10px 10px 0px 0px;
-    }
-
-    .end_resp_list {
-        display: flex;
-        gap: 30px;
-        justify-content: center;
+        text-align: center;
+        margin: auto;
     }
 
     .end_resp_list_item {
@@ -2155,9 +2155,6 @@ hr {
     }
 
     .end_email_resp {
-        display: flex;
-        gap: 30px;
-        justify-content: center;
         padding-bottom: 30px;
     }
 
@@ -2176,7 +2173,8 @@ hr {
         line-height: 36px;
         color: #FFFFFF;
     }
-    .upsells_logo{
+
+    .upsells_logo {
         padding-top: 50px;
         padding-bottom: 30px;
     }
